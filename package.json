@@ -1,0 +1,42 @@
+{
+    "$schema": "https://www.raycast.com/schemas/extension.json",
+    "name": "jikipedia-search",
+    "title": "Jikipedia Search",
+    "description": "a raycast extension of Jikipedia",
+    "icon": "icon.png",
+    "author": "kayanouriko",
+    "categories": [
+        "Fun"
+    ],
+    "license": "MIT",
+    "commands": [
+        {
+            "name": "index",
+            "title": "小鸡词典 - 好多梗啊!",
+            "subtitle": "快速查询网络流行梗的词典",
+            "description": "小鸡词典，是一个基于梗文化的娱乐科普社区。在这里可以紧跟网络热梗，发现新鲜爆笑梗图，遇到不懂的梗还可以快速查询含义。这里没有谜语人，没有小编体，无论是拼音缩写还是小众黑话，都可以帮你答疑解惑，是网上冲浪的必备手册。",
+            "mode": "view"
+        }
+    ],
+    "dependencies": {
+        "@raycast/api": "^1.35.2",
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.11"
+    },
+    "devDependencies": {
+        "@types/node": "~16.10.0",
+        "@types/react": "^17.0.28",
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.5.1",
+        "typescript": "^4.4.3"
+    },
+    "scripts": {
+        "build": "ray build -e dist",
+        "dev": "ray develop",
+        "fix-lint": "ray lint --fix",
+        "lint": "ray lint"
+    }
+}
