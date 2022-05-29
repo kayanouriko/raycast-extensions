@@ -1,0 +1,53 @@
+{
+    "$schema": "https://www.raycast.com/schemas/extension.json",
+    "name": "javbus-search",
+    "title": "Javbus Search",
+    "description": "a raycast extension for javbus",
+    "icon": "icon.png",
+    "author": "kayanouriko",
+    "categories": [
+        "Fun"
+    ],
+    "license": "MIT",
+    "commands": [
+        {
+            "name": "index",
+            "title": "JavBus - AV磁力链接分享",
+            "subtitle": "日本成人影片资料库",
+            "description": "线上日本成人影片磁力链接分享站，番号搜索共享AV磁力链接。",
+            "mode": "view"
+        }
+    ],
+    "preferences": [
+        {
+            "name": "javbusURL",
+            "type": "textfield",
+            "required": true,
+            "title": "JavBus 域名",
+            "description": "输入 JavBus 域名，如 https://www.javbus.com。",
+            "placeholder": "https://www.javbus.com",
+            "default": "https://www.javbus.com"
+        }
+    ],
+    "dependencies": {
+        "@raycast/api": "^1.35.2",
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.11"
+    },
+    "devDependencies": {
+        "@types/node": "~16.10.0",
+        "@types/react": "^17.0.28",
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.5.1",
+        "typescript": "^4.4.3"
+    },
+    "scripts": {
+        "build": "ray build -e dist",
+        "dev": "ray develop",
+        "fix-lint": "ray lint --fix",
+        "lint": "ray lint"
+    }
+}

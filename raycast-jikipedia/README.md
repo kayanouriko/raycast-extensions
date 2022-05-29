@@ -11,22 +11,12 @@
 <p align="center">
   在 <a href="https://www.raycast.com">Raycast</a> 上利用 <a href="https://jikipedia.com/">Jikipedia</a> 搜索网络流行梗词条.
 </p>
-<p align="center" style="font-size: 14px;">
-  Note: This extension only supports Chinese language
-</p>
 
 ![jikipedia-search-01](assets/jikipedia-search-01.png)
 
 ## 安装
 
-1. 克隆该项目到本地任意位置.
-2. 打开 `Raycast` 输入命令 `Import Extension`, 选择本地项目的根目录.
-3. 执行:
-    ```
-    npm install
-    npm run dev
-    ```
-4. 此时 “小鸡词典” 命令应该已经可以在 `Raycast` 内运行.
+参照仓库 README.md
 
 ## 使用
 
