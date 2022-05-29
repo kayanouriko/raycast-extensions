@@ -1,3 +1,5 @@
+<br />
+<br />
 <p align="center">
   <img src="https://raw.githubusercontent.com/raycast/extensions/main/images/store-logo.png" alt="raycast-extensions" style="width: 90px;" />
 </p>
@@ -13,12 +15,15 @@
   注意: 大部分扩展只适合在中文环境下使用, 部分扩展还包含 [NSFW] 内容.
 </p>
 
+<br />
+<br />
+
 ## 包含的扩展
 
 效果图可以到扩展根目录的 README.md 进行查看.
 
-* raycast-jikipedia: 网络流行梗文化词条百科
-* raycast-javbus: 中文的日本成人影片资料库
+* [raycast-jikipedia](https://github.com/kayanouriko/raycast-extensions/tree/main/raycast-jikipedia): 网络流行梗文化词条百科
+* [raycast-javbus](https://github.com/kayanouriko/raycast-extensions/tree/main/raycast-javbus): 中文的日本成人影片资料库
 
 ## 安装
 

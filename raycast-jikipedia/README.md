@@ -1,5 +1,5 @@
 <br />
-
+<br />
 <p align="center">
   <img src="./assets/logo.png" alt="jikipedia" />
 </p>
@@ -13,6 +13,9 @@
 </p>
 
 ![jikipedia-search-01](assets/jikipedia-search-01.png)
+
+<br />
+<br />
 
 ## 安装
 

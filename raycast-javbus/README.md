@@ -1,3 +1,5 @@
+<br>
+<br>
 <p align="center">
   <img src="./assets/logo.png" alt="javbus" />
 </p>
@@ -11,6 +13,9 @@
 </p>
 
 ![javbus-search-01](assets/javbus-search-01.png)
+
+<br>
+<br>
 
 ## 安装
 
