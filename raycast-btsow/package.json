@@ -1,0 +1,158 @@
+{
+    "$schema": "https://www.raycast.com/schemas/extension.json",
+    "name": "raycast-btsow",
+    "title": "raycast-btsow",
+    "description": "",
+    "icon": "icon.png",
+    "author": "kayanouriko",
+    "version": "1.0.0",
+    "categories": [
+        "Fun"
+    ],
+    "license": "MIT",
+    "commands": [
+        {
+            "name": "index",
+            "title": "btsow",
+            "subtitle": "Search magnet link and Search torrent file",
+            "description": "The free online torrent file to magnet link conversion, magnet link to torrent file conversion, Search magnet link and Search torrent file.",
+            "mode": "view"
+        }
+    ],
+    "preferences": [
+        {
+            "name": "site",
+            "type": "textfield",
+            "title": "Site",
+            "description": "input site name, all available sites are listed below or check in https://tellme.pw/btsow.",
+            "placeholder": "e.g. https://btsow.com/",
+            "link": "https://tellme.pw/btsow",
+            "required": true,
+            "default": "https://btsow.bar/"
+        },
+        {
+            "name": "quicklook",
+            "type": "dropdown",
+            "title": "Check list",
+            "description": "btsow all available sites.",
+            "required": true,
+            "default": "https://btsow.com/",
+            "data": [
+                {
+                    "title": "https://btos.pw/",
+                    "value": "https://btos.pw/"
+                },
+                {
+                    "title": "https://btio.pw/",
+                    "value": "https://btio.pw/"
+                },
+                {
+                    "title": "https://btsow.club/",
+                    "value": "https://btsow.club/"
+                },
+                {
+                    "title": "https://bteve.com/",
+                    "value": "https://bteve.com/"
+                },
+                {
+                    "title": "https://btsow.bar/",
+                    "value": "https://btsow.bar/"
+                },
+                {
+                    "title": "https://btsow.fun/",
+                    "value": "https://btsow.fun/"
+                },
+                {
+                    "title": "https://btsow.space/",
+                    "value": "https://btsow.space/"
+                },
+                {
+                    "title": "https://btsow.site/",
+                    "value": "https://btsow.site/"
+                },
+                {
+                    "title": "https://btsow.cyou/",
+                    "value": "https://btsow.cyou/"
+                },
+                {
+                    "title": "https://btsow.monster/",
+                    "value": "https://btsow.monster/"
+                },
+                {
+                    "title": "https://btsow.casa/",
+                    "value": "https://btsow.casa/"
+                },
+                {
+                    "title": "https://btsow.website/",
+                    "value": "https://btsow.website/"
+                },
+                {
+                    "title": "https://btsow.online/",
+                    "value": "https://btsow.online/"
+                },
+                {
+                    "title": "https://btsow.work/",
+                    "value": "https://btsow.work/"
+                },
+                {
+                    "title": "https://btsow.store/",
+                    "value": "https://btsow.store/"
+                },
+                {
+                    "title": "https://btsow.surf/",
+                    "value": "https://btsow.surf/"
+                },
+                {
+                    "title": "https://btsow.com/",
+                    "value": "https://btsow.com/"
+                },
+                {
+                    "title": "https://btsow.cam/",
+                    "value": "https://btsow.cam/"
+                },
+                {
+                    "title": "https://btsow.digital/",
+                    "value": "https://btsow.digital/"
+                },
+                {
+                    "title": "https://btsow.shop/",
+                    "value": "https://btsow.shop/"
+                },
+                {
+                    "title": "https://btsow.us/",
+                    "value": "https://btsow.us/"
+                },
+                {
+                    "title": "https://btsow.one/",
+                    "value": "https://btsow.one/"
+                },
+                {
+                    "title": "https://btsow.rest/",
+                    "value": "https://btsow.rest/"
+                }
+            ]
+        }
+    ],
+    "dependencies": {
+        "@raycast/api": "^1.35.2",
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.11",
+        "muninn": "^0.8.1"
+    },
+    "devDependencies": {
+        "@types/node": "~16.10.0",
+        "@types/react": "^17.0.28",
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.5.1",
+        "typescript": "^4.4.3"
+    },
+    "scripts": {
+        "build": "ray build -e dist",
+        "dev": "ray develop",
+        "fix-lint": "ray lint --fix",
+        "lint": "ray lint"
+    }
+}
